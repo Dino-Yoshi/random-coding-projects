@@ -1,0 +1,50 @@
+## Caesar's Cipher in C# ##
+
+# Two Modes in a Looping Menu should be available to the User.
+- Encrypting
+- Decrypting
+
+# Encrypting is based on user input, i.e How many shifts should be done per character in a string
+# Decrypting is based on Encrypting Shift, where Decryption will be 26 - # of shifts
+
+# Users can put in any sort of string
+- A symbol
+- A single word
+- Any combination of words or symbols
+- Can include puncutation
+
+# String is to be converted one character at a time through shifting, where each loop will shift the letter by one
+
+# Encrypted and Decrypted Strings are stored in separate variables before sent to User
+
+# Two Classes: Encryption.cs and Decryption.cs
+
+# Encryption.cs has access to:
+	- Number of Shifts
+	- The String to be modified
+	- Returning the Modified String
+
+# Decryption.cs has access to:
+	- Number of Shifts
+	- The Modified String
+	
+# Encryption.cs can perform:
+	- The Encrypt Method:
+		- For loop in C# will help us accomplish this using an indexing process alongside an array
+		- This loop will be bounded from 0 to the length of the string
+		- Using the tempVar "i", this will allow for indexing and based on shift, we add the shift
+			to the tempVar before pulling the letter out of a set array.
+		- If for whatever reason, the sum of the two is > 26, subtract 26. We can do that by using 
+			an if statement(?)
+		
+# Decryption.cs can perform:
+	- The Decrypt Method:
+		- Given a modified string, number of shifts to achieve this modification, and an
+			array containing all letters of the english alphabet, decryption is possible.
+		- First, decryption shift is achieved by subtracting 26 - # of encrypt shifts
+		- Then, the modified string 
+		
+# Looping Menu
+	- User is given two options, quit and encrypt (decryption happens regardless)
+	- User is prompted to give some non-empty string (Error Handling can be ignored)
+	
