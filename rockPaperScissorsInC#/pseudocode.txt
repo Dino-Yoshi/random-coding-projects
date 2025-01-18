@@ -1,0 +1,33 @@
+Rock Paper Scissors
+# Important Accumulators
+- Player Wins
+- Game Count
+
+# Important Modes
+- Player VS Player
+- Computer VS Player
+
+# Important Information from Users
+- The move they select (rock, paper, or scissors)
+- Their names
+
+# Important Rules
+- Win Determinants, based on the rules of RPS
+
+# Looping Menu/Interface?
+- Present the user with three options
+	- PvP, PvE, or Quit
+
+# Two Classes: A Player Class, and A Game Class
+- For every interaction with the program, two objects of Player Type and one object of Game Type is generated
+- Players will have methods:
+	- choiceType
+	- winCount
+	- lossCount
+	- userName
+
+- Game will have methods:
+	- determineWin
+	- gameCount
+	- maxPlays
+	- overallWinner
