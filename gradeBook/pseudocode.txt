@@ -1,0 +1,33 @@
+# gradeBook Program in C# #
+
+## Bad Input must be handled 
+## File must be handled well
+
+# The user should have a menu, with options to interact with:
+	- Adding Grades to the book
+		- This will require a name, a score
+		- Which then is saved to a file named "records.txt"
+	- Reading the "records.txt" file.
+		- Displays all students and their respective grades one by one on newlines
+	
+# Records Class #
+	- Upon initalization:
+	- A new record object will require a grade, and a student's name.
+	- To add more than one grade to a specific record object, the student name will serve as an identifier
+	
+	- Initialization Variables:
+		- StudentName, able to be retrieved and set
+		- AverageGrade, able to be retrieved
+	
+	- List of Grades, a new class called Grades that then stores the grades of a student.
+		- This is important for when we want to retrieve the average, and can accumluate an overall score divided by total points of all assignments combined
+	
+# Grades Class #
+	- Upon Initialization:
+	- A new Grade object requires a Grade, Assignment Name
+	- Grades can be retrieved, so getters are necessary.
+	- Assignment names are not as important, so getter is optional.
+	
+	
+	
+	
